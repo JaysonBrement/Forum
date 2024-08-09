@@ -1,0 +1,20 @@
+
+.assetErrorLogin {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-wrap: nowrap;
+    background-color :rgb(240, 115, 115);
+    text-align:center ;
+    height: 30px;
+    padding :5px;
+    font-size:14px;
+    padding:auto;
+    justify-content:center;
+    align-items:center;
+    border-radius: 5px;
+    box-shadow: inset;
+    box-shadow: 1px 1px 1px red;
+    color:white;
+}

@@ -1,0 +1,481 @@
+
+
+
+/* MAIN */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.containeraccueil{
+    padding-top: 70px;
+    height: 100vh;
+    flex:30;
+    
+}
+.containerpush{
+    flex:5;
+    height:100vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height:100vh;
+    width: 100vw;
+    
+    
+    
+}
+/* --------------------------------------------- */
+.threadgroup{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top :50px;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.topic {
+    text-align: center;
+}
+/* THREAD HEADER */
+.threadheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #878787;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.titleheader{
+flex:30;
+/* background-color: blueviolet; */
+}
+
+
+.categoryheader{
+flex:15;
+}
+
+.likesheader{
+    flex:15;
+    /* background-color: crimson; */
+    display: none;
+}
+.repliesheader{
+    flex:15;
+    
+}
+.viewsheader{
+    flex:15;
+    /* background-color: chartreuse; */
+    
+}
+.activityheader{
+    flex:10;
+    
+}
+.threadheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    background-color: #d4d4d4;
+}
+/* ------------------------------------------------------ */
+.thread{
+    display: flex;
+    background-color: #e6e6e6;
+    height: 115px;
+}
+.thread h3{
+    color:#6b6b6b;
+    line-height: 18px;
+    text-decoration: none;
+}
+.thread a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding:5px;
+    
+}
+.alternatethread a{
+    text-decoration: none;
+    color: #eeeeee;
+    display: block;
+    padding:5px;
+}
+.thread a:hover{
+    background-color: #ffffff;
+    
+    transition: all 0.3s ease;
+    
+    border-radius: 5px;
+    
+}
+.alternatethread a:hover{
+    background-color: #797979;
+    
+    transition: all 0.3s ease;
+    
+    border-radius: 5px;
+    
+}
+.thread div{
+    padding :0px 10px 0px 10px;
+}
+.alternatethread{
+    display: flex;
+    background-color: #ffffff;
+    height: 115px;
+}
+.alternatethread h3{
+    color:#6b6b6b;
+    line-height: 15px;
+}
+.alternatethread div{
+    padding :0px 10px 0px 10px;
+}
+
+.profilephoto{
+    flex:10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profilephoto img{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: rgb(114, 99, 207);
+}
+.title{
+    flex:20;
+    display: flex;
+    padding: 0;
+    align-items: center;
+/* background-color: blueviolet; */
+}
+
+.likes{
+/* background-color: darkorchid; */
+flex:15;
+display: none;
+}
+.replies{
+    flex:15;
+    display: flex;
+    align-items: center;
+}
+.views{
+flex:15;
+/* background-color: darksalmon; */
+display: flex;
+    align-items: center;
+}
+.lastactivity{
+    flex:10;
+    /* background-color: rgb(14, 158, 110); */
+    display: flex;
+    align-items: center;
+}
+
+.category{
+    flex:15;
+    display: flex;
+    padding: 0;
+    
+    align-items: center;
+    
+}
+/* ----------------------------------------------------- */
+/* Category */
+
+/* General Discussion */
+.general-discussion {
+    background-color: blue;
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+
+
+
+
+
+
+/* Technology */
+.technology {
+    background-color: gray;
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Entertainment */
+.entertainment {
+    background-color: rgba(184, 184, 0, 0.712);
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Health */
+.health {
+    background-color: rgb(136, 0, 0);
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Travel */
+.travel {
+    background-color: turquoise;
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Sports */
+.sports {
+    background-color: rgb(60, 153, 60);
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Food */
+.food {
+    background-color: orangered;
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Arts */
+.arts {
+    background-color: maroon;
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Science */
+.science {
+    background-color: rgb(89, 89, 134);
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Education */
+.education {
+    background-color: rgb(0, 70, 128);
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Relationships */
+.relationships {
+    background-color: purple;
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+/* Gaming */
+.gaming {
+    background-color: greenyellow;
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+
+
+/* Politics */
+.politics {
+    background-color: red;
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+
+
+/* Religion */
+.religion {
+    background-color: green;
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+
+
+/* Environment */
+.environment {
+    background-color: green;
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+
+
+/* Off-Topic */
+.off-topic {
+    background-color: rgb(59, 170, 159);
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+
+/* background-color: #878787; */
+
+.threadgroup h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: #b1aeae;
+    overflow-wrap: break-word;
+    max-width: 150px;
+    display: block;
+    margin : 0px 1px 0px 1px;
+    
+}
+/* .threadgroup a{
+    text-decoration: none;
+    color: #333;
+    position: relative;
+    margin-right: 20px;
+    display: block;
+    padding: 5px;
+
+}
+.threadgroup a:hover{
+    background-color: #636262;
+    
+    transition: all 0.3s ease;
+    
+    border-radius: 5px;
+    color: white;
+} */
+
+/* .title:hover{
+    background-color: #444343;
+    transition: all 0.3s ease;
+    padding: 1px;
+    border-radius: 5px;
+    color: white;
+} */
+  
+
+/* .dummyprofile{
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+  } */
+
+@media (max-width:900px){
+    .threadgroup h3{
+        font-size: 14px;
+        max-width: 90px;
+        display: block;
+        margin : 0px 1px 0px 1px
+        
+    }
+    .containeraccueil{
+        flex:80;
+    }
+    .thread{
+        height:17vh;
+    }
+    .alternatethread{
+        height: 17vh;
+    }
+    
+}
+@media (max-width:670px){
+    .lastactivity{
+        display: none;
+    }
+    .activityheader{
+        display: none;
+    }
+    .viewsheader{
+        display: none;
+    }
+    .views{
+        display: none;
+    }
+    .likes{
+        display: none;
+    }
+    .likesheader{
+        display: none;
+    }
+
+}
+
+@media(max-width:500px){
+    .replies{
+        display: none;
+    }
+    .repliesheader{
+        display: none;
+    }
+}

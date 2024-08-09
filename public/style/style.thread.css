@@ -1,0 +1,109 @@
+.reddit-style-thread {
+    font-family: Arial, sans-serif;
+    width: 80vw;
+    margin: 20px auto;
+    padding: 15px;
+    margin-top: 20vh;
+    color: #1c1c1c;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    
+}
+
+.reddit-style-thread .main-post {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.reddit-style-thread .main-post h1 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.reddit-style-thread .main-post .username {
+    color: #0079d3;
+}
+
+.reddit-style-thread .comments {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.reddit-style-thread .comments h2 {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.reddit-style-thread .comment {
+    padding-left: 10px;
+    border-left: 4px solid #0079d3;
+    margin-bottom: 10px;
+}
+
+.reddit-style-thread .comment .username {
+    font-weight: bold;
+}
+
+.reddit-style-thread .comment.reply {
+    margin-left: 20px;
+    border-left-color: #ccc;
+}
+
+.horilinepost{
+    background-color: #cfd4bf;
+    margin-top: 20px;
+    width :70vw;
+    height:2px;
+}
+.reply-input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  
+  .submitpost{
+    cursor: pointer;
+    background-color: #a3a3a3;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(37, 37, 37);
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    font-weight: bold;
+    font-size: 15px;
+    height:42px;
+    width:20vw;
+    margin-right:20px;
+  }
+  .submitpost a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    transition: all 0.2s ease;
+  }
+  .submitpost:hover{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    cursor: pointer;
+  }
+  .submitpost a:hover{
+    color: white;
+  }
